@@ -1,0 +1,13 @@
+@import './styles/reset.scss';
+@import './styles/header/index.scss';
+@import './styles/main/index.scss';
+@font-face {
+    font-family: 'SF Compact Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF Compact Display Medium'), url('./assets/fonts/sf-compact-display-medium-5864711817c30.woff') format('woff');
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+}
