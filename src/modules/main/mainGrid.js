@@ -51,6 +51,15 @@ const MainGrid = () => {
                     )
                 })}
             </div>
+            <div className="main__grid__column">
+                {data.map((item) => {
+                    return (
+                        <Fragment key={item.key}>
+                            {item.grid === '6' ? (<div className={item.class}><img src={item.img} /></div>) : ''}
+                        </Fragment>
+                    )
+                })}
+            </div>
         </div>
     )
 }
