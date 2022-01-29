@@ -1,0 +1,19 @@
+@media (max-width: 1000px) {
+    .main {
+        &__action-box {
+            font-size: 2em;
+        }
+        &__grid {
+            display: flex;
+            flex-direction: column;
+            &__column {
+                display: grid;
+                &__img-box {
+                    margin: 25px 100px;
+                    border-radius: 0;
+                    border: 2px solid #000;
+                }
+            }
+        }
+    }
+}

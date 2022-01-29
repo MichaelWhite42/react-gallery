@@ -1,5 +1,14 @@
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .header {
-        height: 100px;
+        height: 120px;
+        max-height: 120px;
+        min-height: 120px;
+        &__logo {
+            font-size: 50px;
+            &__image {
+                width: 40px;
+                height: 40px;
+            }
+        }
     }
 }
