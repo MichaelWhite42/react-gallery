@@ -1,9 +1,7 @@
 import { faFacebookF, faInstagram, faTelegram, faVk } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import MainGrid from "./mainGrid";
 
-const Main = () => {
-    return (
+export const ImagePage = () => {return (
         <div className={`main`}>
             <div className="main__background">
                 <img src="https://dnepr.info/wp-content/uploads/2020/03/les.jpg" />
@@ -36,9 +34,6 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <MainGrid />
         </div>
     )
 }
-
-export default Main;

@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux"
 import { getItems } from "./store/thunk";
 import Header from './modules/header/header';
-import Main from './modules/main/main';
-import MainGrid from "./modules/main/mainGrid";
+import { BrowserRouter as Router } from "react-router-dom";
+import { RoutesComponent } from "./routes";
 
 const AppWrapper = () => {
     const dispatch = useDispatch();
@@ -13,8 +13,10 @@ const AppWrapper = () => {
 
     return (
         <div className="App">
-            <Header />
-            <Main />
+            <Router>
+                <Header />
+                <RoutesComponent />
+            </Router>
         </div>
     )
 }
