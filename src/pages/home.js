@@ -1,9 +1,9 @@
-import Main from "../modules/main/main"
+import MainGrid from "../modules/main/mainGrid"
 
 export const Home = () => {
     return (
         <>
-            <Main />
+            <MainGrid />
         </>
     )
 }

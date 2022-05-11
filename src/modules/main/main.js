@@ -36,7 +36,6 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <MainGrid />
         </div>
     )
 }

@@ -4,6 +4,7 @@ import { getItems } from "./store/thunk";
 import Header from './modules/header/header';
 import { BrowserRouter as Router } from "react-router-dom";
 import { RoutesComponent } from "./routes";
+import Main from "./modules/main/main";
 
 const AppWrapper = () => {
     const dispatch = useDispatch();
@@ -15,6 +16,7 @@ const AppWrapper = () => {
         <div className="App">
             <Router>
                 <Header />
+                <Main />
                 <RoutesComponent />
             </Router>
         </div>

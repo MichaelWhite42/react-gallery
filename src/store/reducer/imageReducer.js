@@ -7,7 +7,9 @@ const defaultState = {
 export const imageReducer = (state = defaultState, action) => {
     switch (action.type) {
         case OPEN_ITEM:
-            return {...state, activeImage: action.payload}
+            return {
+                ...state, activeImage: action.payload
+            }
         default:
             return {
                 ...state
