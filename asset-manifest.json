@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gallery/static/css/main.8a53cd90.css",
-    "main.js": "/react-gallery/static/js/main.ed6db3e0.js",
+    "main.js": "/react-gallery/static/js/main.3bbed93f.js",
     "static/js/787.8aab4bbf.chunk.js": "/react-gallery/static/js/787.8aab4bbf.chunk.js",
     "static/media/23.jpg": "/react-gallery/static/media/23.74c66c22c8cc517a9de1.jpg",
     "static/media/21.jpg": "/react-gallery/static/media/21.a2ecfb3b0d761bdf25c2.jpg",
@@ -10,6 +10,7 @@
     "static/media/9.jpg": "/react-gallery/static/media/9.4e86ec1c6723f08ec462.jpg",
     "static/media/13.jpg": "/react-gallery/static/media/13.15217c1a181c160cc17c.jpg",
     "static/media/7.jpg": "/react-gallery/static/media/7.2762674aa923117dd0dc.jpg",
+    "static/media/32.jpg": "/react-gallery/static/media/32.6adac64448317b51385c.jpg",
     "static/media/31.jpg": "/react-gallery/static/media/31.1a91709673068dace5d9.jpg",
     "static/media/2.jpg": "/react-gallery/static/media/2.7312b98bb7acc86e0ca8.jpg",
     "static/media/18.jpg": "/react-gallery/static/media/18.71b4e46133b4073e15f7.jpg",
@@ -37,11 +38,11 @@
     "static/media/6.jpg": "/react-gallery/static/media/6.378a6980c8800169c438.jpg",
     "index.html": "/react-gallery/index.html",
     "main.8a53cd90.css.map": "/react-gallery/static/css/main.8a53cd90.css.map",
-    "main.ed6db3e0.js.map": "/react-gallery/static/js/main.ed6db3e0.js.map",
+    "main.3bbed93f.js.map": "/react-gallery/static/js/main.3bbed93f.js.map",
     "787.8aab4bbf.chunk.js.map": "/react-gallery/static/js/787.8aab4bbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a53cd90.css",
-    "static/js/main.ed6db3e0.js"
+    "static/js/main.3bbed93f.js"
   ]
 }
