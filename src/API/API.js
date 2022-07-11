@@ -28,6 +28,8 @@ import image27 from '../../src/assets/img/array/27.jpg';
 import image28 from '../../src/assets/img/array/28.jpg';
 import image29 from '../../src/assets/img/array/29.jpg';
 import image30 from '../../src/assets/img/array/30.jpg';
+import image31 from '../../src/assets/img/array/31.jpg';
+import image32 from '../../src/assets/img/array/32.jpg';
 
 export const getAllItems = () => {
     return new Promise((resolve) => {
@@ -58,6 +60,8 @@ export const getAllItems = () => {
                 {class: 'main__grid__column__img-box column-5 row-5', grid: '5', img: image28, key: Math.random()},
                 {class: 'main__grid__column__img-box column-6 row-6', grid: '6', img: image25, key: Math.random()},
                 {class: 'main__grid__column__img-box column-1 row-1', grid: '1', img: image30, key: Math.random()},
+                {class: 'main__grid__column__img-box column-2 row-2', grid: '2', img: image31, key: Math.random()},
+                {class: 'main__grid__column__img-box column-3 row-3', grid: '3', img: image32, key: Math.random()},
             ]
         })
     })
